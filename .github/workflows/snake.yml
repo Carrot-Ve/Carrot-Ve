@@ -1,0 +1,45 @@
+name: Generate Snake
+
+on:
+  schedule:
+    # 每天 03:43 UTC（北京时间 11:43）刷新一次
+    - cron: "43 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generate-snake
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Generate contribution snake SVGs
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      # 品牌统一：蛇色改为 merged 紫（与 Merged PRs 徽章同源）；
+      # 删除生成器自带的底部时间条（零信息量装饰）；裁掉底部死空间。
+      # sed 匹配失败时不改动文件，只保留原样，不会报错。
+      - name: Tweak SVGs (brand purple, drop time bar, trim height)
+        run: |
+          sed -i -E 's|--cs:purple|--cs:#8250DF|g; s|<rect class="u [^>]*/>||g; s|viewBox="-16 -32 880 192" width="880" height="192"|viewBox="-16 -32 880 158" width="880" height="158"|' dist/github-contribution-grid-snake.svg
+          sed -i -E 's|--cs:purple|--cs:#A371F7|g; s|<rect class="u [^>]*/>||g; s|viewBox="-16 -32 880 192" width="880" height="192"|viewBox="-16 -32 880 158" width="880" height="158"|' dist/github-contribution-grid-snake-dark.svg
+
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

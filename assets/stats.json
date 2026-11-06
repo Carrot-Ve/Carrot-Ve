@@ -1,0 +1,79 @@
+{
+ "generated_at": "2026-11-06T06:14:54Z",
+ "user": "Carrot-Ve",
+ "avatars": {
+  "bytedance": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAADPklEQVR4nOzbX0hTbRwH8J8v+jpez3b2rrPZ3BHNuU1OkmI6XFauwIi6NYi6MLrqz1V0J3TRdYU3pV0GQlgIRX92sdI2GkumlWRMxUHaWjFX286TmtukxZE9IrNQMnU95/k+HHj+3fhhPtt5znPy0+k0yDn/4AoFoAAUgAL87QBBJFaMRz8LuL2W5JH0LeANBdu8oeAtAJjWM8yTEkbpLmGULouGm8Bz5AKQnUk9w7h2sP87yln14xJGObfiX6Cz59WZ4bEwj9uEpfzTzMwpbyh497Z/JHbV5/XggXxc6XWOd/U6x28AwJvm+tI+wcj1C0bOs7OSQ3gOIfkXAJpWAGSK9ImodQ8FpesiACwAwGBzfekzwci5Gqr1z8sN7PzSbBl8C0hANvdQsL3rzmvn6UuOiGvwfQUelANAdhgAUOCGHAGICwWgABSAAlAACkAB5AuQ//Pu3CyhmVn1yJdYi3SPcriMv4f7iQWIzicKAiJq8IUj9oCIDkQTyf3S3ZxVx3UCAHkAKJnMG4uJdb5w5GBARM2ZP1iJxzciOQVwfWS0eywmnsRtOS6CRbgiVwCgAJsM8MfWgI7etx1oNlmw28I5zDzrMfMskhUAABj8U/Fj/qn4eQBISnuJjYLObeJV/TZB59mmUiTwRFIBlmdx53XAP9004J9u73YGEhpV4Yt6M/dw367tPWae/YgnkgqQncIoStidQyE7mkspza3sZTxAF8EtXgQpAAWgABSAAlAACkABKAAFoAAUgAJsNYCh6D/p+FoYt0naD1hT2qpM16TLF44IARHZfeFIS+bZgAbPIRoAF2ux1i9dJ8zGzuh8Ii8gohoJYzQmHvmaSu3F84gFWF40isK0VaEdthZrhwHgSiCOVACgx+PEA2SXSrVK2m1GW7UIxgFgFjdIyGqfAOmo7MvM2WEij8pmA3zfwMPSE0KZ+sHRxtIe3JFTAK2HLGf31Boe1VYVf8B968ykiVe5zDzbb+LZPpugy5VnAYsPbVYAnDtedxPXfzPfeG3R/RqjxmHi2ac2QfcOD+RAfvnCxBLAesuF1uo2XM+ByPOVGemlqbmFlMKi4fy4b7UQBbAZvwMoAAWgAGQB/BgAFdIczCslEDsAAAAASUVORK5CYII=",
+  "davepoon": "data:image/jpeg;base64,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",
+  "helsome": "data:image/jpeg;base64,/9j/2wCEAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDIBCQkJDAsMGA0NGDIhHCEyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMv/AABEIAEAAQAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/APn+iitTRNPN9cO20MIhu2t0P1oWoDbDQdT1Ibra0dk5+c8Afia6G0+GurTn97cWsPGcFmZseuAK7HTru3i2WqKvykA44B45rZTVWkH7m3dj93aMAj8+lbxhHqQ5PoeV6v4C1fS7Q3aCO7gQEyNAcmPHqOuMc5rlq9//ALBuLlmkjvxG8hy0e3cv45PP5V4t4i0K90DV5rW7h2DcTG4HyuueCP8ADtUThbUcZXMmiiisygrqtElihto0fajhG5x1yc/n0/KuVq7aXBWRST0wPr6U07CaO8sH8sCV5w8RzsPC/mTXR2ustMqwRHcqjkqN36iuChvhIYoCqLGWAzJkLz64/pXRWJ/s2RLmLBiYhJCmQu0/ieQevP4Van2FynTT6nPBafKGZj2UHj8qwtd8PXmvaFu+1yGRnE0Anx8+FIx/s9Tj9fbSlnv9NukZFMkZ5UjuK2ZTNqensTdGzdVy0mwNgY9+BWnLzbk7Hz/c209ncPBcxPFKhwyOMEVFWnr80sus3CyXn2vym8tZv7yj/wDXWZXOaBSqdppKKANBJS6Z5bOASRWvZX9/ZWpjcEWsucqw4J9aztGsHukmlXny8Gu5u7OO80CP5RlR1FJQe6E2X9C8Y2gt1tNQIY5+VsHH+f8AGt43On6iPJt2SRW4ZAQRj/PavHm/cuQzYKmnJrbWR3QO3m4xuU9BVxqvZi5Sx46sGsvEkjGAQpOiyLt6N2J9jxyK5qtDVdYu9XkR7p92zO32zWfSbuygoopyI0jqiDLMcAUgLWm3stncbomxuGCOxHoa7zw9q8NzbvZTnazfdB7+1cS+hahHtKxByef3bhsflW/p2nXLqvmW8kUnXkYo5mhNXMfxAPIvpoO4f9Kxq3/EWn3ouZL24UKrYAyeTjjOBWBQMKKKKAP/2Q=="
+ },
+ "prs": [
+  {
+   "repo": "davepoon/buildwithclaude",
+   "owner": "davepoon",
+   "name": "buildwithclaude",
+   "number": 337,
+   "title": "Update marketplace skill indexing: resolve local SKILL.md metadata",
+   "status": "merged",
+   "stars": 3728,
+   "created": "2026-09-22T08:56:24Z",
+   "merged_at": "2026-09-24T13:19:10Z",
+   "merged_date": "09-24",
+   "merged_year": "2026",
+   "additions": 204,
+   "deletions": 8,
+   "changed_files": 5,
+   "url": "https://github.com/davepoon/buildwithclaude/pull/337"
+  },
+  {
+   "repo": "helsome/folio",
+   "owner": "helsome",
+   "name": "folio",
+   "number": 242,
+   "title": "fix(providers): 按查询条件隔离财报日历缓存",
+   "status": "merged",
+   "stars": 264,
+   "created": "2026-09-27T13:10:00Z",
+   "merged_at": "2026-10-13T08:22:56Z",
+   "merged_date": "10-13",
+   "merged_year": "2026",
+   "additions": 59,
+   "deletions": 0,
+   "changed_files": 2,
+   "url": "https://github.com/helsome/folio/pull/242"
+  },
+  {
+   "repo": "bytedance/deer-flow",
+   "owner": "bytedance",
+   "name": "deer-flow",
+   "number": 7163,
+   "title": "fix(skills): preserve Markdown table cells in data-analysis exports",
+   "status": "merged",
+   "stars": 85044,
+   "created": "2026-10-20T03:34:40Z",
+   "merged_at": "2026-10-20T06:30:58Z",
+   "merged_date": "10-20",
+   "merged_year": "2026",
+   "additions": 59,
+   "deletions": 4,
+   "changed_files": 4,
+   "url": "https://github.com/bytedance/deer-flow/pull/7163"
+  },
+  {
+   "repo": "Carrot-Ve/source-teaching",
+   "owner": "Carrot-Ve",
+   "name": "source-teaching",
+   "number": 1,
+   "title": "Add MIT license and declare it across the package",
+   "status": "merged",
+   "stars": 0,
+   "created": "2026-10-22T06:53:40Z",
+   "merged_at": "2026-10-22T07:05:39Z",
+   "merged_date": "10-22",
+   "merged_year": "2026",
+   "additions": 0,
+   "deletions": 0,
+   "changed_files": 0,
+   "url": "https://github.com/Carrot-Ve/source-teaching/pull/1"
+  }
+ ]
+}
